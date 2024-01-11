@@ -1,3 +1,7 @@
+""" 
+1. Two Sum
+"""
+
 def twoSum(nums: list[int], target: int) -> list[int]:
     numsHash = {}
     for i in range(len(nums)):
