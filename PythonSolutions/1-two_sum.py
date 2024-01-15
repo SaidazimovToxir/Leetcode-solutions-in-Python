@@ -19,4 +19,5 @@ nums3 = [3,3]
 target3 = 6
 
 twosum = twoSum(nums2,target2)
+print("HI world")
 print(twosum)
