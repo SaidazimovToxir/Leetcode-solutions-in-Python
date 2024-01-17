@@ -4,7 +4,7 @@
 
 
 
-class Solution:
+class Solution:  # O(1) Time complexity and O(n) space complexity
     def lengthOfLongestSubstring(self, s: str) -> int:
         start = 0
         maxx = 0

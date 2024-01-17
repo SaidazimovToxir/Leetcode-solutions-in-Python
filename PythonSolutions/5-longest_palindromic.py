@@ -3,7 +3,7 @@
 """
 
 
-def isPalindrome(s,start,end):
+def isPalindrome(s,start,end): # O(n) Time complexity and O(n) Space complexity
     while start<end:
         if s[start] != s[end]:
             return False

@@ -23,7 +23,6 @@ def main():
     nums2 = [2]
     result = solution.findMedianSortedArrays(nums1,nums2)
     print(result)
-    print("Hello world")
     
 if __name__=='__main__':
     main()
