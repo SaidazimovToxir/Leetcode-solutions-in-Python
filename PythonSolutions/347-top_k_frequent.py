@@ -5,7 +5,6 @@ class Solution:
         frequency = {}
         for num in nums:
             frequency[num] = frequency.get(num, 0) + 1
-        
         unique_nums = sorted(frequency.keys(), key=lambda x: frequency[x], reverse=True)
         
         return unique_nums[:k]
